@@ -1,0 +1,22 @@
+version: '3'
+services:
+  jenkins:
+    image: jenkins/jenkins
+    ports:
+      - "8080:8080" # Expose Jenkins web interface
+    volumes:
+      - jenkins_data:/var/jenkins_home
+      - ./jenkins_shared:/shared
+    # Other Jenkins configurations...
+
+  tomcat:
+    image: tomcat
+    ports:
+      - "8081:8080" # Expose Tomcat web interface
+    volumes:
+      - ./tomcat_webapps:/usr/local/tomcat/webapps
+      - ./jenkins_shared:/shared
+    # Other Tomcat configurations...
+
+volumes:
+  jenkins_data:
