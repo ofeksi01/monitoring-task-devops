@@ -3,10 +3,10 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Ofek Sinai - Current Date</title>
+    <title>Ofek Sinai - Current Date </title>
 </head>
 <body>
-    <h1>Ofek Sinai - DevOps Monitoring Task HIT</h1>
+    <h1>Ofek Sinai - DevOps Monitoring Task HIT :)</h1>
     <%@ page import="java.util.Date, java.text.SimpleDateFormat" %>
     <% Date currentDate = new Date(); %>
     <% SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd"); %>
