@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Ofek Sinai - Current Date ;)</title>
+    <title>Ofek Sinai - Current Date :)</title>
 </head>
 <body>
     <h1>Ofek Sinai - DevOps Monitoring Task HIT :)</h1>
