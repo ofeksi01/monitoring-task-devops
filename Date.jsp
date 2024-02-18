@@ -11,6 +11,6 @@
     <% Date currentDate = new Date(); %>
     <% SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd"); %>
     <% String formattedDate = dateFormat.format(currentDate); %>
-    <p>Today's Date: <%= formattedDate %></p>
+    <p>Today's Date: DATE MISSING</p>
 </body>
 </html>
